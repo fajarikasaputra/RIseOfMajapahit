@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 263: expected a keyword argument or end of line.
-    action Preference("auto-forward","toggle") 'images/onauto.png'
-                                               ^
+File "game/screens.rpy", line 352: vbox expects a non-empty block.
+    else:
+         ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Sat Oct 15 19:25:06 2022
+Sun Oct 23 04:25:40 2022

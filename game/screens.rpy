@@ -8,6 +8,17 @@ init offset = -1
 ################################################################################
 ## Gaya
 ################################################################################
+screen chapter():
+    
+    tag menu
+
+    style_prefix "chapter_menu"
+    
+
+    imagebutton idle "images/chap.png" xpos 120 ypos 160 action Start("chapter1")
+    imagebutton idle "images/chap.png" xpos 1030 ypos 160 action Start("chapter1")
+    imagebutton idle "images/chap.png" xpos 120 ypos 600 action Start("chapter1")
+    imagebutton idle "images/chap.png" xpos 1030 ypos 600  action Start("chapter1")
 
 style default:
     properties gui.text_properties()
@@ -254,13 +265,22 @@ screen quick_menu():
             yalign 0.98
             xalign 0.967
             imagebutton:
+                idle "images/back.png"
+                hover "images/onback.png"
+                action Rollback()
+            imagebutton:
+                idle "images/next.png"
+                hover "onnext.png"
+                action renpy.curry(renpy.end_interaction)(True)
+            imagebutton:
                 idle "images/log.png"
                 hover "images/onlog.png"
                 action ShowMenu('history')  
             imagebutton:
                 idle "images/auto.png"
                 hover "images/onauto.png"
-                action Skip() alternate Skip(fast=True, confirm=True)
+                selected_hover "images/onauto.png"
+                action Preference("auto-forward", "toggle")
             imagebutton:
                 idle "images/save.png"
                 hover "images/onsave.png"
@@ -303,26 +323,66 @@ style quick_button_text:
 
 screen navigation():
 
+
     vbox:
         style_prefix "navigation"
 
         xpos gui.navigation_xpos
-        yalign 0.5
+        yalign 0.7
+        xalign -0.13
 
         spacing gui.navigation_spacing
 
+
         if main_menu:
-            textbutton _("Mulai") action Start()
+            imagebutton:
+                idle "menu/newgame.png" 
+                hover "menu/onnewgame.png"
+                action Start()
+            # textbutton _("Mulai") action Start()
 
-        else:
+        # else:
 
-            textbutton _("Riwayat") action ShowMenu("history")
+            # textbutton _("Riwayat") action ShowMenu("history")
 
-            textbutton _("Simpan") action ShowMenu("save")
+            # textbutton _("Simpan") action ShowMenu("save")
 
-        textbutton _("Muat") action ShowMenu("load")
+        imagebutton:
+            idle "settingUI/history.png"
+            hover "settingUI/onhistory.png"
+            action ShowMenu('history')
+        imagebutton:
+            idle "settingUI/loadgame.png"
+            hover "settingUI/onloadgame.png"
+            action QuickSave()
+        imagebutton:
+            idle "menu/loadgame.png"
+            hover "menu/onloadgame.png"
+            action ShowMenu("load")
+        # textbutton _("Muat") action ShowMenu("load")
 
-        textbutton _("Setting") action ShowMenu("preferences")
+        imagebutton:
+            idle "menu/selectchapter.png"
+            hover "menu/onselectchapter.png"
+            action Show("chapter", transition=dissolve)
+
+        imagebutton:
+            idle "menu/setting.png"
+            hover "menu/onsetting.png"
+            action ShowMenu("preferences")
+        # textbutton _("Setting") action ShowMenu("preferences")
+        # textbutton _("Select Chapter") action "chapter.rpy"
+
+        imagebutton:
+            idle "menu/gallery.png"
+            hover "menu/ongallery.png"
+            action "menu/ongallery.png"
+
+
+        imagebutton:
+            idle "menu/quit.png"
+            hover "menu/onquit.png"
+            action Quit(confirm=not main_menu)
 
         if _in_replay:
 
@@ -332,18 +392,18 @@ screen navigation():
 
             textbutton _("Menu Utama") action MainMenu()
 
-        textbutton _("Tentang") action ShowMenu("about")
+        # textbutton _("Tentang") action ShowMenu("about")
 
-        if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
+        # if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 
-            ## Bantuan tidak perlu atau relevan dengan perangkat mobile.
-            textbutton _("Bantuan") action ShowMenu("help")
+        #     # Bantuan tidak perlu atau relevan dengan perangkat mobile.
+        #     textbutton _("Bantuan") action ShowMenu("help")
 
-        if renpy.variant("pc"):
+        # if renpy.variant("pc"):
 
-            ## The quit button is banned on iOS and unnecessary on Android and
-            ## Web.
-            textbutton _("Keluar") action Quit(confirm=not main_menu)
+        #     # The quit button is banned on iOS and unnecessary on Android and
+        #     # Web.
+        #     textbutton _("Keluar") action Quit(confirm=not main_menu)
 
 
 style navigation_button is gui_button
@@ -366,7 +426,7 @@ style navigation_button_text:
 screen main_menu():
 
     ## Ini Memastikan Layar Menu Yang Lain Telah Di Timpa
-    tag menu
+    # tag menu
 
     add gui.main_menu_background
 
@@ -400,7 +460,7 @@ style main_menu_frame:
     xsize 420
     yfill True
 
-    background "gui/overlay/main_menu.png"
+    # background "gui/overlay/main_menu.png"
 
 style main_menu_vbox:
     xalign 1.0
@@ -597,22 +657,26 @@ style about_label_text:
 
 screen save():
 
-    tag menu
+    # tag menu
 
-    use file_slots(_("Simpan"))
+    add "images/bg-candi.png"
+    use file_slots(_(""))
 
 
 screen load():
 
-    tag menu
+    # tag menu
 
+    add "images/bg-candi.png"
     use file_slots(_("Muat"))
 
 
 screen file_slots(title):
 
-    default page_name_value = FilePageNameInputValue(pattern=_("Halaman {}"), auto=_("Otomatis save"), quick=_("Save cepat"))
+    default page_name_value = FilePageNameInputValue(pattern=_("Halaman {}"), auto=_("Auto Save"), quick=_("Quick Save"))
 
+    add "images/bg-candi.png"
+    
     use game_menu(title):
 
         fixed:
