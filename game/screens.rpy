@@ -44,7 +44,7 @@ screen gallery():
         imagebutton:
             idle "settingUI/back.png"
             hover "settingUI/onback.png"
-            action MainMenu()
+            action Return()
 
 screen art():
     add ("images/bg-candi.png")
@@ -152,14 +152,14 @@ screen sin():
         hover "galleryUI/pertemuanOn.png"
         xpos 120 
         ypos 600 
-        action Start("istri")
+        action Start("met")
         sensitive persistent.is3 == True
     imagebutton:
-        idle "galleryUI/gadisdarimasadepanOff.png" 
-        hover ("galleryUI/gadisdarimasadepanOn.png") 
+        idle "galleryUI/garisdarimasadepanOff.png" 
+        hover ("galleryUI/garisdarimasadepanOn.png") 
         xpos 120 
         ypos 160 
-        action Start("meet&greet")
+        action Start("bacabuku")
         sensitive persistent.mg == True
     imagebutton: 
         idle "galleryUI/runtuhnyaSingasariOff.png" 
@@ -168,13 +168,7 @@ screen sin():
         ypos 160
         action Start("berontak")
         sensitive persistent.jyt == True
-    imagebutton:
-        idle "chapterUI/jayakatwangOff.png" 
-        hover "chapterUI/jayakatwangOn.png" 
-        xpos 1030 
-        ypos 600  
-        action Start("jaya")
-        sensitive persistent.jyk == True
+
 
     vbox:
         # style_prefix "navigation"

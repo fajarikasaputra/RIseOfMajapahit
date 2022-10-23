@@ -2,13 +2,11 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 18: 'define' is not a keyword argument or valid child for the screen statement.
-    define gui.navigation = False
-          ^
+The label meet is defined twice, at File "game/itemgallery.rpy", line 10:
+label meet:
+and File "game/itemgallery.rpy", line 67:
+label meet:
 
-File "game/screens.rpy", line 98: expected 'image_name_component' not found.
-    show 
-         ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Sun Oct 23 20:36:48 2022
+Sun Oct 23 20:49:21 2022

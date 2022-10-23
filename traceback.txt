@@ -1,17 +1,17 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <renpy.display.im.Image object ('chapterUI/jayakatwangOff.png') at 0x7fc526c15ee0>:
-  File "game/screens.rpy", line 141, in script
-    call screen char
+While loading <renpy.display.im.Image object ('galleryUI/gadisdarimasadepanOff.png') at 0x7f52f518bac0>:
+  File "game/screens.rpy", line 184, in script
+    call screen sin
   File "renpy/common/000statements.rpy", line 609, in execute_call_screen
     store._return = renpy.call_screen(name, *args, **kwargs)
-OSError: Couldn't find file 'chapterUI/jayakatwangOff.png'.
+OSError: Couldn't find file 'galleryUI/gadisdarimasadepanOff.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/screens.rpy", line 141, in script
-    call screen char
+  File "game/screens.rpy", line 184, in script
+    call screen sin
   File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/ast.py", line 2232, in execute
     self.call("execute")
   File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/ast.py", line 2220, in call
@@ -68,9 +68,9 @@ Full traceback:
     filelike = renpy.loader.load(self.filename)
   File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/loader.py", line 820, in load
     raise IOError("Couldn't find file '%s'." % name)
-OSError: Couldn't find file 'chapterUI/jayakatwangOff.png'.
+OSError: Couldn't find file 'galleryUI/gadisdarimasadepanOff.png'.
 
 Linux-5.15.0-52-generic-x86_64-with-glibc2.31 x86_64
 Ren'Py 8.0.3.22090809
 Majapahit 1.0
-Sun Oct 23 19:54:42 2022
+Sun Oct 23 20:49:36 2022
