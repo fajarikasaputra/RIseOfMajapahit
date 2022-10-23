@@ -17,17 +17,23 @@ init offset = -1
 screen gallery():
     add ("images/bg-candi.png")
     imagebutton:
-        idle "chapterUI/chapterSatuOff.png" 
-        hover ("chapterUI/chapterSatuOn.png") 
+        idle "galleryUI/charOff.png" 
+        hover ("galleryUI/charOn.png") 
         xpos 120 
-        ypos 350 
+        ypos 200
         action Start("char")
     imagebutton: 
-        idle "chapterUI/chapterDuaOff.png" 
-        hover "chapterUI/chapterDuaOn.png"
+        idle "galleryUI/artefakOff.png" 
+        hover "galleryUI/artefakOn.png"
         xpos 1030 
-        ypos 350
+        ypos 200
         action Start("art")
+    imagebutton: 
+        idle "galleryUI/sceneOff.png" 
+        hover "galleryUI/sceneOn.png"
+        xpos 575
+        ypos 650
+        action Start("scene")
 
     vbox:
         # style_prefix "navigation"
@@ -328,7 +334,7 @@ screen quick_menu():
     if quick_menu:
 
         hbox:
-            style_prefix "quick"
+            # style_prefix "quick"
             yalign 0.98
             xalign 0.967
             imagebutton:
@@ -537,7 +543,7 @@ screen main_menu():
 
 
 style main_menu_frame is empty
-style main_menu_vbox is empty
+style main_menu_vbox is vbox
 style main_menu_text is gui_text
 style main_menu_title is main_menu_text
 style main_menu_version is main_menu_text

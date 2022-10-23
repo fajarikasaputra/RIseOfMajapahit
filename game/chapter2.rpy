@@ -23,7 +23,6 @@ image chap2op2 = "narasi/viana2.png"
 image chap2op3 = "narasi/viana3.png"
 image chap2op4 = "narasi/viana4.png"
 image bacaBuku = "images/bacaBuku.png"
-image pararaton = "images/kitabPararaton.png"
 #image jayakatwang = "images/jayakatwang.png"
 #image jayakatwang = "images/jayakatwang.png"
 #image hurukbali = "images/hurukbali.png"
@@ -73,7 +72,10 @@ label chapter2:
     scene chap2op3 with fade
     pause
 
-
+    hide windows
+    scene bacaBuku with fade
+    vn "APA INII?!!!"
+    pause
     jump buku
 
 default grid_width = 3
@@ -88,34 +90,17 @@ define active_area_size = puzzle_piece_size - (grip_size * 2)
 label buku:
     scene quiz with fade
 
-    vn "Aku ingin membaca buku yang barusan ku dapatkan."
-    vn "Aku sangat membutuhkan bantuan dari kalian untuk membacanya"
-
     # put the puzzle in separate label to be able to call it several times in game
     
     # the puzzle loading takes some time, so let's warn the player
     # centered "Loading data...{nw}" # nw-tag is necessary for puzzle to actually start
     
     # let's set the puzzle variables
-    $ grid_width = 5
-    $ grid_height = 5
+    $ grid_width = 3
+    $ grid_height = 3
     $ chosen_img = "images/isikitab.jpeg"
-
-
-    call puzzle
-
-    jump lembaran
-
-label lembaran:
-    scene quiz with fade
-
-    vn "Tapi aku masih membutuhkan bantuan kalian, tolong bantu aku lagi"
-
-    $ grid_width = 5
-    $ grid_height = 5
-    $ chosen_img = "images/kitabPararaton.jpeg"
-
-
+    
+    # and call puzzle label
     call puzzle
     
 

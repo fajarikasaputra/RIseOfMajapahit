@@ -200,12 +200,14 @@ label puzzle:
     show puzzle_background as puzzle_bg
     call screen jigsaw
     jump win
-    
+
+define vn = Character("Viana")
+
 label win:
     show black as puzzle_bg
     show expression img_to_play as win_img at truecenter with dissolve 
 
-    "You win!"
+    vn "Aaaaa.. terimakasih sudah membantuku..."
     hide puzzle_bg
     hide win_img
     return # end of puzzle (return to game)
