@@ -15,6 +15,7 @@ init offset = -1
 # $ persistent.ch5 = False 
 # $ persistent.ch6 = False 
 screen gallery():
+    
     add ("images/bg-candi.png")
     imagebutton:
         idle "galleryUI/charOff.png" 
@@ -33,7 +34,7 @@ screen gallery():
         hover "galleryUI/sceneOn.png"
         xpos 575
         ypos 650
-        action Start("scene")
+        action Start("sin")
 
     vbox:
         # style_prefix "navigation"
@@ -43,7 +44,7 @@ screen gallery():
         imagebutton:
             idle "settingUI/back.png"
             hover "settingUI/onback.png"
-            action Return()
+            action MainMenu()
 
 screen art():
     add ("images/bg-candi.png")
@@ -66,7 +67,7 @@ screen art():
         hover "galleryUI/negarakertagamaOn.png"
         xpos 1030 
         ypos 160
-        action Start("negarakerta")
+        action Start("negarakertagama")
         sensitive persistent.ng == True
     imagebutton:
         idle "galleryUI/sutasomaOff.png" 
@@ -93,10 +94,13 @@ screen art():
             hover "settingUI/onback.png"
             action Return()
 
+
+
 label art:
     call screen art
 
 screen char():
+    add ("images/bg-candi.png")
     style_prefix "chapter_menu"
     imagebutton:
         idle "galleryUI/vianaOff.png" 
@@ -140,29 +144,30 @@ screen char():
 label char:
     call screen char
 
-screen scene():
+screen sin():
+    add ("images/bg-candi.png")
     style_prefix "chapter_menu"
     imagebutton:
-        idle "images/vianaOff.png" 
-        hover ("images/vianaOn.png") 
-        xpos 120 
-        ypos 160 
-        action Start("viana")
-        sensitive persistent.vn == True
-    imagebutton: 
-        idle "galleryUI/radenOff.png" 
-        hover "galleryUI/radenOn.png"
-        xpos 1030 
-        ypos 160
-        action Start("wijaya")
-        sensitive persistent.rw == True
-    imagebutton:
-        idle "galleryUI/istriOff.png" 
-        hover "galleryUI/istriOn.png"
+        idle "galleryUI/pertemuanOff.png" 
+        hover "galleryUI/pertemuanOn.png"
         xpos 120 
         ypos 600 
         action Start("istri")
         sensitive persistent.is3 == True
+    imagebutton:
+        idle "galleryUI/gadisdarimasadepanOff.png" 
+        hover ("galleryUI/gadisdarimasadepanOn.png") 
+        xpos 120 
+        ypos 160 
+        action Start("meet&greet")
+        sensitive persistent.mg == True
+    imagebutton: 
+        idle "galleryUI/runtuhnyaSingasariOff.png" 
+        hover "galleryUI/runtuhnyaSingasariOn.png"
+        xpos 1030 
+        ypos 160
+        action Start("berontak")
+        sensitive persistent.jyt == True
     imagebutton:
         idle "chapterUI/jayakatwangOff.png" 
         hover "chapterUI/jayakatwangOn.png" 
@@ -180,6 +185,9 @@ screen scene():
             idle "settingUI/back.png"
             hover "settingUI/onback.png"
             action Return()
+
+label sin:
+    call screen sin
 
 screen chapter():
     add ("images/bg-candi.png")
