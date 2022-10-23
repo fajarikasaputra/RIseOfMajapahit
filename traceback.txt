@@ -1,16 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <renpy.display.im.Image object ('galleryUI/gadisdarimasadepanOff.png') at 0x7f52f518bac0>:
-  File "game/screens.rpy", line 184, in script
+While running game code:
+  File "game/itemgallery.rpy", line 177, in script
     call screen sin
   File "renpy/common/000statements.rpy", line 609, in execute_call_screen
     store._return = renpy.call_screen(name, *args, **kwargs)
-OSError: Couldn't find file 'galleryUI/gadisdarimasadepanOff.png'.
+  File "renpy/common/00action_menu.rpy", line 148, in __call__
+    renpy.jump_out_of_context(self.label)
+JumpOutException: berontak
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/screens.rpy", line 184, in script
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/bootstrap.py", line 277, in bootstrap
+    renpy.main.main()
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/main.py", line 660, in main
+    run(restart)
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/main.py", line 146, in run
+    renpy.execution.run_context(True)
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/execution.py", line 938, in run_context
+    context.run()
+  File "game/itemgallery.rpy", line 177, in script
     call screen sin
   File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/ast.py", line 2232, in execute
     self.call("execute")
@@ -26,51 +36,31 @@ Full traceback:
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/core.py", line 3377, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/core.py", line 3912, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/core.py", line 2602, in draw_screen
-    surftree = renpy.display.render.render_screen(
-  File "render.pyx", line 495, in renpy.display.render.render_screen
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/layout.py", line 884, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/layout.py", line 884, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/layout.py", line 884, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/screen.py", line 704, in render
-    child = renpy.display.render.render(self.child, w, h, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/layout.py", line 884, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/behavior.py", line 885, in render
-    rv = super(Button, self).render(width, height, st, at)
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/layout.py", line 1334, in render
-    surf = render(child,
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/im.py", line 627, in render
-    return cache.get(self, render=True)
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/im.py", line 295, in get
-    surf = image.load()
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/im.py", line 720, in load
-    raise e
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/im.py", line 685, in load
-    filelike = renpy.loader.load(self.filename)
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/loader.py", line 820, in load
-    raise IOError("Couldn't find file '%s'." % name)
-OSError: Couldn't find file 'galleryUI/gadisdarimasadepanOff.png'.
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/core.py", line 4258, in interact_core
+    rv = root_widget.event(ev, x, y, 0)
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/layout.py", line 1175, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/layout.py", line 1175, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/layout.py", line 1175, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/screen.py", line 743, in event
+    rv = self.child.event(ev, x, y, st)
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/layout.py", line 1175, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/behavior.py", line 1073, in event
+    return handle_click(self.clicked)
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/behavior.py", line 1008, in handle_click
+    rv = run(action)
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/behavior.py", line 329, in run
+    return action(*args, **kwargs)
+  File "renpy/common/00action_menu.rpy", line 148, in __call__
+    renpy.jump_out_of_context(self.label)
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/exports.py", line 1906, in jump_out_of_context
+    raise renpy.game.JumpOutException(label)
+JumpOutException: berontak
 
 Linux-5.15.0-52-generic-x86_64-with-glibc2.31 x86_64
 Ren'Py 8.0.3.22090809
 Majapahit 1.0
-Sun Oct 23 20:49:36 2022
+Sun Oct 23 21:04:34 2022

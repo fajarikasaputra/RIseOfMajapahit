@@ -77,6 +77,7 @@ label chapter1:
 
     hide windows
     scene jayaAttack with fade
+    $ persistent.jyt = True
     pause
 
     scene black with dissolve
@@ -153,16 +154,18 @@ label chapter1:
     v "Agh…. apa yang sudah terjadi?"
     w "Akhirnya kamu sadar juga"
     scene hutan with fade
+    $ persistent.hutan = True
     v "Dimana aku sekarang?"
     w "Sekarang kamu berada di perbatasan  Sumenep dan Singasari"
     v "Siapa kamu?!"
     rw "Aku adalah Sanggramawijaya, putra dari Rakyan Jayadarma"
+    $ persistent.rw = True
     v "(Tunggu sebentar, aku seperti pernah mendengar namanya"
     v "..........."
     rw "Apakah kamu baik baik saja?"
     v "(Kaget)"
-    vn "Maaf, namaku adalah Viana"
-    $ persistent.pr = True
+    vn "Maaf paman, namaku adalah Viana"
+    $ persistent.vn = True
     rw "Ah nama yang bagus, darimana asalmu?"
     jump asal
 
