@@ -328,7 +328,7 @@ screen quick_menu():
     if quick_menu:
 
         hbox:
-            # style_prefix "quick"
+            style_prefix "quick"
             yalign 0.98
             xalign 0.967
             imagebutton:
@@ -537,7 +537,7 @@ screen main_menu():
 
 
 style main_menu_frame is empty
-style main_menu_vbox is vbox
+style main_menu_vbox is empty
 style main_menu_text is gui_text
 style main_menu_title is main_menu_text
 style main_menu_version is main_menu_text

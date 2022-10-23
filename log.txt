@@ -1390,3 +1390,1541 @@ Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
 Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
 Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 3828.94s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.04s
+Loading script took 0.38s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError('/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/lib/py3-linux-x86_64/libsteam_api.so: cannot open shared object file: No such file or directory')
+Running init code took 0.06s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/home/fajarikasaputra/.renpy/backups/Majapahit':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.06s
+Prepare screens took 0.17s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 3832.48s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.03s
+Loading script took 0.15s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError('/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/lib/py3-linux-x86_64/libsteam_api.so: cannot open shared object file: No such file or directory')
+Running init code took 0.04s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.06s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 3851.42s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.14s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError('/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/lib/py3-linux-x86_64/libsteam_api.so: cannot open shared object file: No such file or directory')
+Running init code took 0.04s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.06s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 3904.30s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.03s
+Loading script took 0.38s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError('/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/lib/py3-linux-x86_64/libsteam_api.so: cannot open shared object file: No such file or directory')
+Running init code took 0.04s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/home/fajarikasaputra/.renpy/backups/Majapahit':
+Dump and make backups. took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.04s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 3907.28s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.15s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError('/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/lib/py3-linux-x86_64/libsteam_api.so: cannot open shared object file: No such file or directory')
+Running init code took 0.04s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.06s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 3966.07s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.03s
+Loading script took 0.38s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError('/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/lib/py3-linux-x86_64/libsteam_api.so: cannot open shared object file: No such file or directory')
+Running init code took 0.05s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/home/fajarikasaputra/.renpy/backups/Majapahit':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.11s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.05s
+Prepare screens took 0.15s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 3969.29s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.03s
+Loading script took 0.15s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError('/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/lib/py3-linux-x86_64/libsteam_api.so: cannot open shared object file: No such file or directory')
+Running init code took 0.04s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.07s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.15s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4116.41s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.33s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError('/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/lib/py3-linux-x86_64/libsteam_api.so: cannot open shared object file: No such file or directory')
+Running init code took 0.05s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/home/fajarikasaputra/.renpy/backups/Majapahit':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.04s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4166.22s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.03s
+Loading script took 0.35s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError('/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/lib/py3-linux-x86_64/libsteam_api.so: cannot open shared object file: No such file or directory')
+Running init code took 0.06s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/home/fajarikasaputra/.renpy/backups/Majapahit':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.05s
+Prepare screens took 0.15s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4171.17s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.14s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError('/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/lib/py3-linux-x86_64/libsteam_api.so: cannot open shared object file: No such file or directory')
+Running init code took 0.04s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.07s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4195.64s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.03s
+Loading script took 0.35s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError('/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/lib/py3-linux-x86_64/libsteam_api.so: cannot open shared object file: No such file or directory')
+Running init code took 0.05s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/home/fajarikasaputra/.renpy/backups/Majapahit':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.05s
+Prepare screens took 0.18s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4199.94s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.03s
+Loading script took 0.15s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError('/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/lib/py3-linux-x86_64/libsteam_api.so: cannot open shared object file: No such file or directory')
+Running init code took 0.04s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.06s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4508.03s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.15s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError('/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/lib/py3-linux-x86_64/libsteam_api.so: cannot open shared object file: No such file or directory')
+Running init code took 0.04s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.06s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.15s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4673.25s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.16s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+
+File "game/chapter2.rpy", line 99: expected statement.
+    hbox:
+        ^
+DPI scale factor: 1.000000
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4680.92s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.03s
+Loading script took 0.17s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/chapter2.rpy", line 99: expected statement.
+    hbox:
+        ^
+DPI scale factor: 1.000000
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4685.57s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.03s
+Loading script took 0.18s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/chapter2.rpy", line 99: expected statement.
+    vbox:
+        ^
+DPI scale factor: 1.000000
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4696.23s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.03s
+Loading script took 0.17s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/chapter2.rpy", line 99: expected statement.
+    hbox:
+        ^
+DPI scale factor: 1.000000
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4696.82s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.16s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/chapter2.rpy", line 99: expected statement.
+    hbox:
+        ^
+DPI scale factor: 1.000000
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4697.34s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.15s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/chapter2.rpy", line 99: expected statement.
+    hbox:
+        ^
+DPI scale factor: 1.000000
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4751.54s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.03s
+Loading script took 0.28s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/chapter2.rpy", line 99: expected statement.
+    hbox:
+        ^
+DPI scale factor: 1.000000
+Interface start took 0.11s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4760.72s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.03s
+Loading script took 0.27s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/chapter2.rpy", line 99: expected statement.
+    hbox:
+        ^
+DPI scale factor: 1.000000
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4765.38s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.29s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/chapter2.rpy", line 99: expected statement.
+    hbox:
+        ^
+DPI scale factor: 1.000000
+Interface start took 0.11s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4788.10s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.04s
+Loading script took 0.31s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/chapter2.rpy", line 102: expected statement.
+    hbox:
+        ^
+DPI scale factor: 1.000000
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4790.66s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.25s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/chapter2.rpy", line 102: expected statement.
+    hbox:
+        ^
+DPI scale factor: 1.000000
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4791.20s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.26s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/chapter2.rpy", line 102: expected statement.
+    hbox:
+        ^
+DPI scale factor: 1.000000
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4791.82s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.04s
+Loading script took 0.37s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/chapter2.rpy", line 102: expected statement.
+    hbox:
+        ^
+DPI scale factor: 1.000000
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4844.52s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.03s
+Loading script took 0.30s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/chapter2.rpy", line 102: expected statement.
+    hbox:
+        ^
+DPI scale factor: 1.000000
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4846.20s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.28s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/chapter2.rpy", line 105: expected statement.
+    hbox:
+        ^
+DPI scale factor: 1.000000
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4849.36s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.03s
+Loading script took 0.29s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/chapter2.rpy", line 106: expected statement.
+    hbox:
+        ^
+DPI scale factor: 1.000000
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4858.56s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.05s
+Loading script took 0.31s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/chapter2.rpy", line 106: expected statement.
+    hbox:
+        ^
+DPI scale factor: 1.000000
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4860.97s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.26s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/chapter2.rpy", line 106: expected statement.
+    hbox:
+        ^
+DPI scale factor: 1.000000
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4861.53s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.03s
+Loading script took 0.28s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/chapter2.rpy", line 106: expected statement.
+    hbox:
+        ^
+DPI scale factor: 1.000000
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4924.75s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.03s
+Loading script took 0.29s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/chapter2.rpy", line 90: 'call' is not a keyword argument or valid child for the hbox statement.
+    call puzzle
+        ^
+DPI scale factor: 1.000000
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4928.11s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.03s
+Loading script took 0.27s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+
+File "game/chapter2.rpy", line 90: 'call' is not a keyword argument or valid child for the hbox statement.
+    call puzzle
+        ^
+DPI scale factor: 1.000000
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4928.68s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.27s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/chapter2.rpy", line 90: 'call' is not a keyword argument or valid child for the hbox statement.
+    call puzzle
+        ^
+DPI scale factor: 1.000000
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4943.87s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.03s
+Loading script took 0.33s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError('/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/lib/py3-linux-x86_64/libsteam_api.so: cannot open shared object file: No such file or directory')
+Running init code took 0.06s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/home/fajarikasaputra/.renpy/backups/Majapahit':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.04s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.06s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.06s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init took 5063.18s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.05s
+Loading script took 0.23s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError('/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/lib/py3-linux-x86_64/libsteam_api.so: cannot open shared object file: No such file or directory')
+Running init code took 0.06s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/home/fajarikasaputra/.renpy/backups/Majapahit':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.12s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.04s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 5074.02s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.03s
+Loading script took 0.18s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError('/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/lib/py3-linux-x86_64/libsteam_api.so: cannot open shared object file: No such file or directory')
+Running init code took 0.04s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/home/fajarikasaputra/.renpy/backups/Majapahit':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.05s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 5121.06s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.16s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError('/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/lib/py3-linux-x86_64/libsteam_api.so: cannot open shared object file: No such file or directory')
+Running init code took 0.04s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/home/fajarikasaputra/.renpy/backups/Majapahit':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.05s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.06s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init took 5127.85s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.03s
+Loading script took 0.15s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError('/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/lib/py3-linux-x86_64/libsteam_api.so: cannot open shared object file: No such file or directory')
+Running init code took 0.04s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.12s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.07s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/puzzles.rpy", line 90, in script
+    python:
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/ast.py", line 1131, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/python.py", line 1061, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/puzzles.rpy", line 92, in <module>
+    img_width, img_height = renpy.image_size(chosen_img)
+NameError: name 'chosen_img' is not defined
+
+While running game code:
+  File "game/puzzles.rpy", line 90, in script
+    python:
+  File "game/puzzles.rpy", line 92, in <module>
+    img_width, img_height = renpy.image_size(chosen_img)
+NameError: name 'chosen_img' is not defined
+Resetting cache.
+Bootstrap to the start of init.init took 5233.17s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.18s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError('/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/lib/py3-linux-x86_64/libsteam_api.so: cannot open shared object file: No such file or directory')
+Running init code took 0.04s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/home/fajarikasaputra/.renpy/backups/Majapahit':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.04s
+Prepare screens took 0.15s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/puzzles.rpy", line 90, in script
+    python:
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/ast.py", line 1131, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/python.py", line 1061, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/puzzles.rpy", line 92, in <module>
+    img_width, img_height = renpy.image_size(chosen_img)
+NameError: name 'chosen_img' is not defined
+
+While running game code:
+  File "game/puzzles.rpy", line 90, in script
+    python:
+  File "game/puzzles.rpy", line 92, in <module>
+    img_width, img_height = renpy.image_size(chosen_img)
+NameError: name 'chosen_img' is not defined
+Resetting cache.
+Bootstrap to the start of init.init took 5268.80s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.03s
+Loading script took 0.18s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError('/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/lib/py3-linux-x86_64/libsteam_api.so: cannot open shared object file: No such file or directory')
+Running init code took 0.04s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/home/fajarikasaputra/.renpy/backups/Majapahit':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.05s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/puzzles.rpy", line 90, in script
+    python:
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/ast.py", line 1131, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/python.py", line 1061, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/puzzles.rpy", line 92, in <module>
+    img_width, img_height = renpy.image_size(chosen_img)
+NameError: name 'chosen_img' is not defined
+
+While running game code:
+  File "game/puzzles.rpy", line 90, in script
+    python:
+  File "game/puzzles.rpy", line 92, in <module>
+    img_width, img_height = renpy.image_size(chosen_img)
+NameError: name 'chosen_img' is not defined
+Resetting cache.
+Bootstrap to the start of init.init took 5323.25s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: OSError('/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/lib/py3-linux-x86_64/libsteam_api.so: cannot open shared object file: No such file or directory')
+Running init code took 0.04s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/home/fajarikasaputra/.renpy/backups/Majapahit':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.05s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.03s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon(TM) Vega 3 Graphics (RAVEN2, DRM 3.42.0, 5.15.0-52-generic, LLVM 12.0.0)'
+Version: b'4.6 (Compatibility Profile) Mesa 21.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1019) drawable=(1920, 1019)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/puzzles.rpy", line 90, in script
+    python:
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/ast.py", line 1131, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/python.py", line 1061, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/puzzles.rpy", line 92, in <module>
+    img_width, img_height = renpy.image_size(chosen_img)
+NameError: name 'chosen_img' is not defined
+
+While running game code:
+  File "game/puzzles.rpy", line 90, in script
+    python:
+  File "game/puzzles.rpy", line 92, in <module>
+    img_width, img_height = renpy.image_size(chosen_img)
+NameError: name 'chosen_img' is not defined
