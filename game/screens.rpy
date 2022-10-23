@@ -321,11 +321,11 @@ screen quick_menu():
                 idle "images/log.png"
                 hover "images/onlog.png"
                 action ShowMenu('history')  
-            imagebutton:
-                idle "images/auto.png"
-                hover "images/onauto.png"
-                selected_hover "images/onauto.png"
-                action Preference("auto-forward", "toggle")
+            # imagebutton:
+            #     idle "images/auto.png"
+            #     hover "images/onauto.png"
+            #     selected_hover "images/onauto.png"
+            #     action Preference("auto-forward", "toggle")
             imagebutton:
                 idle "images/save.png"
                 hover "images/onsave.png"

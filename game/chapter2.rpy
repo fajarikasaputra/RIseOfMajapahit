@@ -23,6 +23,17 @@ image chap2op2 = "narasi/viana2.png"
 image chap2op3 = "narasi/viana3.png"
 image chap2op4 = "narasi/viana4.png"
 image bacaBuku = "images/bacaBuku.png"
+
+image radenKanan = "char/radenWijayaKanan.png"
+image radenKiri = "char/radenWijayaKiri.png"
+image radenKanan = "char/radenWijayaKanan.png"
+image istriRadenKanan = "char/istriRadenKanan.png"
+image istriRadenKiri = "char/istriRadenKiri.png"
+image vianaKanan = "char/vianaKanan.png"
+image vianaKiri = "char/vianaKiri.png"
+image jayakatwangKanan = "char/jayakatwangKanan.png"
+image jayakatwangKiri = "char/jayakatwangKiri.png"
+
 #image jayakatwang = "images/jayakatwang.png"
 #image jayakatwang = "images/jayakatwang.png"
 #image hurukbali = "images/hurukbali.png"
@@ -56,10 +67,13 @@ label chapter2:
 
     scene black with fade
     
-    show viana at left
+    show vianaKiri
     vn "Permisi Ibu Anindya......"
+    hide vianaKiri
     an "Iyaa Viana, mau pinjem buku ibu ya? Ambil aja di tempat biasa yaa"
+    show vianaKiri
     vn "Mohon maaf ibu, bukunya boleh Viana pinjem untuk baca di rumah tidak bu?"
+    hide vianaKiri
     an "Iyaa tentu saja, silahkan Viana"
 
     hide windows

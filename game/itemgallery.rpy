@@ -88,7 +88,7 @@ screen art():
             action Return()
 
 screen kitab():
-    add ("galleryUI/pararatonDetail.png.png")
+    add ("galleryUI/pararatonDetail.png")
     vbox:
         # style_prefix "navigation"
         xpos gui.navigation_xpos

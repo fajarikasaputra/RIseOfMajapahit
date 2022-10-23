@@ -12,7 +12,7 @@
 ##
 ## Tanda _() yang mengelilingi string menandai itu dapat di terjemahkan.
 
-define config.name = _("Majapahit")
+define config.name = _("Rise of Majapahit")
 
 
 ## Meng determinasikan apakah judul yang di berikan di atas di tampilkan di menu
@@ -37,7 +37,7 @@ define gui.about = _p("""
 ## bangunan distribusi. Ini harus hanya berisi karakter ASCII-saja, dan tidak
 ## boleh mengandung  spasi, koma, atau kutip.
 
-define build.name = "Majapahit"
+define build.name = "Rise of Majapahit"
 
 
 ## Suara dan musik #############################################################
@@ -63,7 +63,7 @@ define config.has_voice = True
 ## dimainkan sampai permainan di mulai, sampai di hentikan atau file lain di
 ## mainkan.
 
-# define config.main_menu_music = "main-menu-theme.ogg"
+define config.main_menu_music = "Intense BGM.mp3"
 
 
 ## Transisi ####################################################################
