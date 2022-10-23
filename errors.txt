@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 595: frame expects a non-empty block.
-    frame:
-          ^
+File "game/screens.rpy", line 60: 'auto' is not a keyword argument or valid child for the screen statement.
+    auto ("galleryUI/pararatonOff_%s.png")
+        ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Sun Oct 23 15:56:03 2022
+Sun Oct 23 19:39:27 2022

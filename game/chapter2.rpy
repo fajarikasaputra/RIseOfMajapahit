@@ -72,11 +72,7 @@ label chapter2:
     scene chap2op3 with fade
     pause
 
-    hide windows
-    scene bacaBuku with fade
-    vn "APA INII?!!!"
-    pause
-    jump buku
+
 
 default grid_width = 3
 default grid_height = 3
@@ -98,10 +94,15 @@ label buku:
     # let's set the puzzle variables
     $ grid_width = 3
     $ grid_height = 3
-    $ chosen_img = "images/isikitab.jpeg"
-    
+    $ chosen_img = "images/kitabPararaton.png"
     # and call puzzle label
     call puzzle
+    $ persistent.pr = True
     
+    hide windows
+    scene bacaBuku with fade
+    vn "APA INII?!!!"
+    pause
+    jump buku
 
     return

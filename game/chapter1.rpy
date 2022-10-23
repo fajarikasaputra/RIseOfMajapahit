@@ -162,6 +162,7 @@ label chapter1:
     rw "Apakah kamu baik baik saja?"
     v "(Kaget)"
     vn "Maaf, namaku adalah Viana"
+    $ persistent.pr = True
     rw "Ah nama yang bagus, darimana asalmu?"
     jump asal
 

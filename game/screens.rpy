@@ -45,6 +45,142 @@ screen gallery():
             hover "settingUI/onback.png"
             action Return()
 
+screen art():
+    add ("images/bg-candi.png")
+    # tag menu
+    # default ta = Tooltip(None)
+    # default td = Tooltip(None)
+    # default te = Tooltip(None)
+    # default tf = Tooltip(None)
+
+    style_prefix "chapter_menu"
+    imagebutton:
+        idle "galleryUI/paratonOff.png" 
+        hover ("galleryUI/paratonOn.png") 
+        xpos 120 
+        ypos 160 
+        action Start("kitab")
+        sensitive persistent.pr == True
+    imagebutton: 
+        idle "galleryUI/negarakertagamaOff.png" 
+        hover "galleryUI/negarakertagamaOn.png"
+        xpos 1030 
+        ypos 160
+        action Start("negarakerta")
+        sensitive persistent.ng == True
+    imagebutton:
+        idle "galleryUI/sutasomaOff.png" 
+        hover "galleryUI/sutasomaOn.png"
+        xpos 120 
+        ypos 600 
+        action Start("sutasoma")
+        sensitive persistent.sts == True
+    # imagebutton:
+    #     idle "chapterUI/chapterEmpatOff.png" 
+    #     hover "chapterUI/chapterEmpatOn.png" 
+    #     xpos 1030 
+    #     ypos 600  
+    #     action Start("chapter4")
+    #     sensitive persistent.ch1 == True and persistent.ch2 == True and persistent.ch3 == True
+
+    vbox:
+        # style_prefix "navigation"
+        xpos gui.navigation_xpos
+        yalign 0.03
+        xalign -0.13
+        imagebutton:
+            idle "settingUI/back.png"
+            hover "settingUI/onback.png"
+            action Return()
+
+label art:
+    call screen art
+
+screen char():
+    style_prefix "chapter_menu"
+    imagebutton:
+        idle "galleryUI/vianaOff.png" 
+        hover ("galleryUI/vianaOn.png") 
+        xpos 120 
+        ypos 160 
+        action Start("viana")
+        sensitive persistent.vn == True
+    imagebutton: 
+        idle "galleryUI/radenOff.png" 
+        hover "galleryUI/radenOn.png"
+        xpos 1030 
+        ypos 160
+        action Start("wijaya")
+        sensitive persistent.rw == True
+    imagebutton:
+        idle "galleryUI/istriOff.png" 
+        hover "galleryUI/istriOn.png"
+        xpos 120 
+        ypos 600 
+        action Start("istri")
+        sensitive persistent.is3 == True
+    imagebutton:
+        idle "galleryUI/jayakatwangOff.png" 
+        hover "galleryUI/jayakatwangOn.png" 
+        xpos 1030 
+        ypos 600  
+        action Start("jaya")
+        sensitive persistent.jyk == True
+
+    vbox:
+        # style_prefix "navigation"
+        xpos gui.navigation_xpos
+        yalign 0.03
+        xalign -0.13
+        imagebutton:
+            idle "settingUI/back.png"
+            hover "settingUI/onback.png"
+            action Return()
+
+label char:
+    call screen char
+
+screen scene():
+    style_prefix "chapter_menu"
+    imagebutton:
+        idle "images/vianaOff.png" 
+        hover ("images/vianaOn.png") 
+        xpos 120 
+        ypos 160 
+        action Start("viana")
+        sensitive persistent.vn == True
+    imagebutton: 
+        idle "galleryUI/radenOff.png" 
+        hover "galleryUI/radenOn.png"
+        xpos 1030 
+        ypos 160
+        action Start("wijaya")
+        sensitive persistent.rw == True
+    imagebutton:
+        idle "galleryUI/istriOff.png" 
+        hover "galleryUI/istriOn.png"
+        xpos 120 
+        ypos 600 
+        action Start("istri")
+        sensitive persistent.is3 == True
+    imagebutton:
+        idle "chapterUI/jayakatwangOff.png" 
+        hover "chapterUI/jayakatwangOn.png" 
+        xpos 1030 
+        ypos 600  
+        action Start("jaya")
+        sensitive persistent.jyk == True
+
+    vbox:
+        # style_prefix "navigation"
+        xpos gui.navigation_xpos
+        yalign 0.03
+        xalign -0.13
+        imagebutton:
+            idle "settingUI/back.png"
+            hover "settingUI/onback.png"
+            action Return()
+
 screen chapter():
     add ("images/bg-candi.png")
     # tag menu
