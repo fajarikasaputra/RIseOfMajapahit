@@ -1,70 +1,42 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/itemgallery.rpy", line 178, in script
-    call screen sin
-  File "renpy/common/000statements.rpy", line 609, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-  File "game/itemgallery.rpy", line 140, in execute
-    screen sin():
-  File "game/itemgallery.rpy", line 140, in execute
-    screen sin():
-  File "game/itemgallery.rpy", line 157, in execute
-    imagebutton:
-  File "game/itemgallery.rpy", line 157, in keywords
-    imagebutton:
-  File "game/itemgallery.rpy", line 162, in <module>
-    action Function(renpy.show, "jayaAttack", at_list=my_transform)
-NameError: name 'my_transform' is not defined
+  File "renpy/common/00start.rpy", line 215, in script call
+    call _load_reload_game from _call__load_reload_game_1
+  File "renpy/common/00keymap.rpy", line 517, in script
+    python hide:
+  File "renpy/common/00keymap.rpy", line 517, in <module>
+    python hide:
+  File "renpy/common/00keymap.rpy", line 528, in _execute_python_hide
+    renpy.load(renpy.session["_reload_slot"])
+Exception: Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/itemgallery.rpy", line 178, in script
-    call screen sin
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/ast.py", line 2232, in execute
-    self.call("execute")
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/ast.py", line 2220, in call
-    return renpy.statements.call(method, parsed, *args, **kwargs)
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/statements.py", line 281, in call
-    return method(parsed, *args, **kwargs)
-  File "renpy/common/000statements.rpy", line 609, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/exports.py", line 3181, in call_screen
-    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/ui.py", line 299, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/core.py", line 3377, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/core.py", line 3810, in interact_core
-    root_widget.visit_all(lambda i : i.per_interact())
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/core.py", line 582, in visit_all
-    d.visit_all(callback, seen)
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/core.py", line 582, in visit_all
-    d.visit_all(callback, seen)
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/core.py", line 582, in visit_all
-    d.visit_all(callback, seen)
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/screen.py", line 451, in visit_all
-    callback(self)
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/core.py", line 3810, in <lambda>
-    root_widget.visit_all(lambda i : i.per_interact())
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/screen.py", line 462, in per_interact
-    self.update()
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/screen.py", line 653, in update
-    self.screen.function(**self.scope)
-  File "game/itemgallery.rpy", line 140, in execute
-    screen sin():
-  File "game/itemgallery.rpy", line 140, in execute
-    screen sin():
-  File "game/itemgallery.rpy", line 157, in execute
-    imagebutton:
-  File "game/itemgallery.rpy", line 157, in keywords
-    imagebutton:
-  File "game/itemgallery.rpy", line 162, in <module>
-    action Function(renpy.show, "jayaAttack", at_list=my_transform)
-NameError: name 'my_transform' is not defined
+  File "renpy/common/00start.rpy", line 215, in script call
+    call _load_reload_game from _call__load_reload_game_1
+  File "renpy/common/00keymap.rpy", line 517, in script
+    python hide:
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/ast.py", line 1131, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/python.py", line 1061, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00keymap.rpy", line 517, in <module>
+    python hide:
+  File "renpy/common/00keymap.rpy", line 528, in _execute_python_hide
+    renpy.load(renpy.session["_reload_slot"])
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/loadsave.py", line 769, in load
+    log.unfreeze(roots, label="_after_load")
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/rollback.py", line 1078, in unfreeze
+    self.rollback(0, force=True, label=label, greedy=greedy, on_load=True)
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/rollback.py", line 889, in rollback
+    self.load_failed()
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/rollback.py", line 807, in load_failed
+    raise Exception("Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?")
+Exception: Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?
 
 Linux-5.15.0-52-generic-x86_64-with-glibc2.31 x86_64
 Ren'Py 8.0.3.22090809
 Majapahit 1.0
-Sun Oct 23 21:29:08 2022
+Sun Oct 23 21:52:16 2022

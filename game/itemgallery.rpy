@@ -53,21 +53,21 @@ screen art():
         hover ("galleryUI/paratonOn.png") 
         xpos 120 
         ypos 160 
-        action Start("kitab")
+        action Show("kitab")
         sensitive persistent.pr == True
     imagebutton: 
         idle "galleryUI/negarakertagamaOff.png" 
         hover "galleryUI/negarakertagamaOn.png"
         xpos 1030 
         ypos 160
-        action Start("negarakertagama")
+        action Show("negarakertagama")
         sensitive persistent.ng == True
     imagebutton:
         idle "galleryUI/sutasomaOff.png" 
         hover "galleryUI/sutasomaOn.png"
         xpos 120 
         ypos 600 
-        action Start("sutasoma")
+        action Show("sutasoma")
         sensitive persistent.sts == True
     # imagebutton:
     #     idle "chapterUI/chapterEmpatOff.png" 
@@ -87,6 +87,17 @@ screen art():
             hover "settingUI/onback.png"
             action Return()
 
+screen kitab():
+    add ("galleryUI/pararatonDetail.png.png")
+    vbox:
+        # style_prefix "navigation"
+        xpos gui.navigation_xpos
+        yalign 0.03
+        xalign -0.13
+        imagebutton:
+            idle "settingUI/back.png"
+            hover "settingUI/onback.png"
+            action Return()
 
 
 label art:
@@ -138,8 +149,8 @@ screen char():
 label char:
     call screen char
 
-screen bacabuku():
-    add ("images/bacaBuku.png")
+screen aa():
+    add ("galleryUI/profilJayakartwang.png")
     vbox:
         # style_prefix "navigation"
         xpos gui.navigation_xpos
@@ -149,6 +160,43 @@ screen bacabuku():
             idle "settingUI/back.png"
             hover "settingUI/onback.png"
             action Return()
+
+screen istri():
+    add ("galleryUI/profilIstri.png")
+    vbox:
+        # style_prefix "navigation"
+        xpos gui.navigation_xpos
+        yalign 0.03
+        xalign -0.13
+        imagebutton:
+            idle "settingUI/back.png"
+            hover "settingUI/onback.png"
+            action Return()
+
+screen wijaya():
+    add ("galleryUI/profilRaden.png")
+    vbox:
+        # style_prefix "navigation"
+        xpos gui.navigation_xpos
+        yalign 0.03
+        xalign -0.13
+        imagebutton:
+            idle "settingUI/back.png"
+            hover "settingUI/onback.png"
+            action Return()
+
+screen viana():
+    add ("galleryUI/profilViana.png")
+    vbox:
+        # style_prefix "navigation"
+        xpos gui.navigation_xpos
+        yalign 0.03
+        xalign -0.13
+        imagebutton:
+            idle "settingUI/back.png"
+            hover "settingUI/onback.png"
+            action Return()
+
 
 screen sin():
     add ("images/bg-candi.png")

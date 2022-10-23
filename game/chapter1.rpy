@@ -34,14 +34,6 @@ define a = Character ("Aria Wiraraja")
 
 
 label chapter1:
-
-    # window hide
-    # show bg candi
-    # pause
-    # window show
-    # show black
-    # call screen ourScreen()
-
     hide windows
     scene chapter1 with fade
     pause

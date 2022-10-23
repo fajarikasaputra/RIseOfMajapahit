@@ -89,7 +89,7 @@ label buku:
     # put the puzzle in separate label to be able to call it several times in game
     
     # the puzzle loading takes some time, so let's warn the player
-    # centered "Loading data...{nw}" # nw-tag is necessary for puzzle to actually start
+    centered "Loading data...{nw}" # nw-tag is necessary for puzzle to actually start
     
     # let's set the puzzle variables
     $ grid_width = 3
@@ -99,10 +99,19 @@ label buku:
     call puzzle
     $ persistent.pr = True
     
+    centered "Loading data...{nw}" # nw-tag is necessary for puzzle to actually start
+    
+    # let's set the puzzle variables
+    $ grid_width = 3
+    $ grid_height = 3
+    $ chosen_img = "images/isikitab.jpeg"
+    # and call puzzle label
+    call puzzle
+
     hide windows
     scene bacaBuku with fade
     vn "APA INII?!!!"
     pause
-    jump buku
+    jump chapter3
 
     return
