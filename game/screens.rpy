@@ -8,17 +8,84 @@ init offset = -1
 ################################################################################
 ## Gaya
 ################################################################################
+# $ ch1 = False  
+# $ persistent.ch2 = False 
+# $ persistent.ch3 = False 
+# $ persistent.ch4 = False 
+# $ persistent.ch5 = False 
+# $ persistent.ch6 = False 
+screen gallery():
+    add ("images/bg-candi.png")
+    imagebutton:
+        idle "chapterUI/chapterSatuOff.png" 
+        hover ("chapterUI/chapterSatuOn.png") 
+        xpos 120 
+        ypos 350 
+        action Start("char")
+    imagebutton: 
+        idle "chapterUI/chapterDuaOff.png" 
+        hover "chapterUI/chapterDuaOn.png"
+        xpos 1030 
+        ypos 350
+        action Start("art")
+
+    vbox:
+        # style_prefix "navigation"
+        xpos gui.navigation_xpos
+        yalign 0.03
+        xalign -0.13
+        imagebutton:
+            idle "settingUI/back.png"
+            hover "settingUI/onback.png"
+            action Return()
+
 screen chapter():
-    
-    tag menu
+    add ("images/bg-candi.png")
+    # tag menu
+    # default ta = Tooltip(None)
+    # default td = Tooltip(None)
+    # default te = Tooltip(None)
+    # default tf = Tooltip(None)
 
     style_prefix "chapter_menu"
-    
+    imagebutton:
+        idle "chapterUI/chapterSatuOff.png" 
+        hover ("chapterUI/chapterSatuOn.png") 
+        xpos 120 
+        ypos 160 
+        action Start("chapter1")
+    imagebutton: 
+        idle "chapterUI/chapterDuaOff.png" 
+        hover "chapterUI/chapterDuaOn.png"
+        xpos 1030 
+        ypos 160
+        action Start("chapter2")
+        sensitive persistent.ch1 == True
+    imagebutton:
+        idle "chapterUI/chapterTigaOff.png" 
+        hover "chapterUI/chapterTigaOn.png"
+        xpos 120 
+        ypos 600 
+        action Start("chapter3")
+        sensitive persistent.ch1 == True and persistent.ch2 == True  # variable value
+    imagebutton:
+        idle "chapterUI/chapterEmpatOff.png" 
+        hover "chapterUI/chapterEmpatOn.png" 
+        xpos 1030 
+        ypos 600  
+        action Start("chapter4")
+        sensitive persistent.ch1 == True and persistent.ch2 == True and persistent.ch3 == True
 
-    imagebutton idle "images/chap.png" xpos 120 ypos 160 action Start("chapter1")
-    imagebutton idle "images/chap.png" xpos 1030 ypos 160 action Start("chapter1")
-    imagebutton idle "images/chap.png" xpos 120 ypos 600 action Start("chapter1")
-    imagebutton idle "images/chap.png" xpos 1030 ypos 600  action Start("chapter1")
+    vbox:
+        # style_prefix "navigation"
+        xpos gui.navigation_xpos
+        yalign 0.03
+        xalign -0.13
+        imagebutton:
+            idle "settingUI/back.png"
+            hover "settingUI/onback.png"
+            action Return()
+
 
 style default:
     properties gui.text_properties()
@@ -268,10 +335,10 @@ screen quick_menu():
                 idle "images/back.png"
                 hover "images/onback.png"
                 action Rollback()
-            imagebutton:
-                idle "images/next.png"
-                hover "onnext.png"
-                action renpy.curry(renpy.end_interaction)(True)
+            # imagebutton:
+            #     idle "images/next.png"
+            #     hover "onnext.png"
+            #     action renpy.curry(renpy.end_interaction)(True)
             imagebutton:
                 idle "images/log.png"
                 hover "images/onlog.png"
@@ -325,7 +392,7 @@ screen navigation():
 
 
     vbox:
-        style_prefix "navigation"
+        # style_prefix "navigation"
 
         xpos gui.navigation_xpos
         yalign 0.7
@@ -340,57 +407,76 @@ screen navigation():
                 hover "menu/onnewgame.png"
                 action Start()
             # textbutton _("Mulai") action Start()
+            imagebutton:
+                idle "menu/loadgame.png"
+                hover "menu/onloadgame.png"
+                action ShowMenu("load")
+            # textbutton _("Muat") action ShowMenu("load")
 
-        # else:
+            imagebutton:
+                idle "menu/selectchapter.png"
+                hover "menu/onselectchapter.png"
+                action Show("chapter", transition=dissolve)
 
+            # imagebutton:
+            #     idle "menu/setting.png"
+            #     hover "menu/onsetting.png"
+            #     action ShowMenu("preferences")
+                # action ShowMenu("Escape")
+            # textbutton _("Setting") action ShowMenu("preferences")
+            # textbutton _("Select Chapter") action "chapter.rpy"
+
+            imagebutton:
+                idle "menu/gallery.png"
+                hover "menu/ongallery.png"
+                action Show("gallery", transition=dissolve)
+
+
+            imagebutton:
+                idle "menu/quit.png"
+                hover "menu/onquit.png"
+                action Quit(confirm=not main_menu)
+
+            if _in_replay:
+
+                textbutton _("Akhiri Replay") action EndReplay(confirm=True)
+
+        if not main_menu:
+            # add ("imagse/bg-candi.png")
+            imagebutton:
+                idle "settingUI/history.png"
+                hover "settingUI/onhistory.png"
+                action ShowMenu('history')
             # textbutton _("Riwayat") action ShowMenu("history")
-
             # textbutton _("Simpan") action ShowMenu("save")
+            imagebutton:
+                idle "settingUI/loadgame.png"
+                hover "settingUI/onloadgame.png"
+                action ShowMenu("load")
+            imagebutton:
+                idle "settingUI/quicksave.png"
+                hover "settingUI/onquicksave.png"
+                action QuickSave()
+            imagebutton:
+                idle "settingUI/setting.png"
+                hover "settingUI/onsetting.png"
+                action ShowMenu("preferences")
+            imagebutton:
+                idle "settingUI/back.png"
+                hover "settingUI/onback.png"
+                # style "return_button"
+                # textbutton _("Kembali"):
+                action Return()
+            imagebutton:
+                idle "settingUI/mainmenu.png"
+                hover "settingUI/onmainmenu.png"
+                action MainMenu()
+            imagebutton:
+                idle "settingUI/quit.png"
+                hover "settingUI/onquit.png"
+                action Quit(confirm=not main_menu)
 
-        imagebutton:
-            idle "settingUI/history.png"
-            hover "settingUI/onhistory.png"
-            action ShowMenu('history')
-        imagebutton:
-            idle "settingUI/loadgame.png"
-            hover "settingUI/onloadgame.png"
-            action QuickSave()
-        imagebutton:
-            idle "menu/loadgame.png"
-            hover "menu/onloadgame.png"
-            action ShowMenu("load")
-        # textbutton _("Muat") action ShowMenu("load")
-
-        imagebutton:
-            idle "menu/selectchapter.png"
-            hover "menu/onselectchapter.png"
-            action Show("chapter", transition=dissolve)
-
-        imagebutton:
-            idle "menu/setting.png"
-            hover "menu/onsetting.png"
-            action ShowMenu("preferences")
-        # textbutton _("Setting") action ShowMenu("preferences")
-        # textbutton _("Select Chapter") action "chapter.rpy"
-
-        imagebutton:
-            idle "menu/gallery.png"
-            hover "menu/ongallery.png"
-            action "menu/ongallery.png"
-
-
-        imagebutton:
-            idle "menu/quit.png"
-            hover "menu/onquit.png"
-            action Quit(confirm=not main_menu)
-
-        if _in_replay:
-
-            textbutton _("Akhiri Replay") action EndReplay(confirm=True)
-
-        elif not main_menu:
-
-            textbutton _("Menu Utama") action MainMenu()
+        
 
         # textbutton _("Tentang") action ShowMenu("about")
 
@@ -491,7 +577,7 @@ style main_menu_version:
 
 screen game_menu(title, scroll=None, yinitial=0.0):
 
-    style_prefix "game_menu"
+    # style_prefix "game_menu"
 
     if main_menu:
         add gui.main_menu_background
@@ -502,6 +588,8 @@ screen game_menu(title, scroll=None, yinitial=0.0):
         style "game_menu_outer_frame"
 
         hbox:
+
+                # xalign 1.5
 
             ## Memesan tempat untuk bagian navigasi.
             frame:
@@ -545,12 +633,17 @@ screen game_menu(title, scroll=None, yinitial=0.0):
 
     use navigation
 
-    textbutton _("Kembali"):
-        style "return_button"
+    # hbox:
+    #     yalign 0.11 
+    #     xalign 0.037
+    #     imagebutton:
+    #         idle "settingUI/back.png"
+    #         hover "settingUI/onback.png"
+    #         style "return_button"
+    #         # textbutton _("Kembali"):
+    #         action Return()
 
-        action Return()
-
-    label title
+    # label title
 
     if main_menu:
         key "game_menu" action ShowMenu("main_menu")
@@ -613,8 +706,7 @@ style return_button:
 ## Layar ini menampilkan credit dan informasi copyright tentang game dan Ren.Py.
 ##
 ## Tidak ada yang spesial dengan layar ini, semenjak ini juga berperan sebagai
-## contoh bagaimana membuat layar custom.
-
+## contoh bagaimana membuat layar custom.Setting
 screen about():
 
     tag menu
@@ -790,13 +882,14 @@ style slot_button_text:
 
 screen preferences():
 
-    tag menu
+    # tag menu
 
     use game_menu(_("Setting"), scroll="viewport"):
 
         vbox:
 
             hbox:
+                # xalign 1.5
                 box_wrap True
 
                 if renpy.variant("pc") or renpy.variant("web"):
@@ -821,9 +914,10 @@ screen preferences():
             null height (4 * gui.pref_spacing)
 
             hbox:
+
                 style_prefix "slider"
                 box_wrap True
-
+                xalign 1.0
                 vbox:
 
                     label _("Kecepatan Text")
@@ -902,6 +996,7 @@ style pref_label:
 
 style pref_label_text:
     yalign 1.0
+    xalign 1.0
 
 style pref_vbox:
     xsize 338
@@ -932,7 +1027,7 @@ style slider_slider:
 style slider_button:
     properties gui.button_properties("slider_button")
     yalign 0.5
-    left_margin 15
+    left_margin 15  
 
 style slider_button_text:
     properties gui.button_text_properties("slider_button")

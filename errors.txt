@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 352: vbox expects a non-empty block.
-    else:
-         ^
+File "game/screens.rpy", line 595: frame expects a non-empty block.
+    frame:
+          ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Sun Oct 23 04:25:40 2022
+Sun Oct 23 15:56:03 2022

@@ -1,66 +1,53 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <renpy.display.im.Image object ('gui/bg-candi.png') at 0x7f2b4bfd7ac0>:
-OSError: Couldn't find file 'gui/bg-candi.png'.
+While running game code:
+  File "game/chapter2.rpy", line 104, in script call
+    call puzzle
+  File "game/puzzles.rpy", line 201, in script
+    call screen jigsaw
+  File "renpy/common/000statements.rpy", line 609, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+OSError: Couldn't find file 'Pickup_Coin.ogg'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/_layout/screen_load_save.rpym", line 35, in script
-    $ ui.interact()
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/ast.py", line 1131, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/python.py", line 1061, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/_layout/screen_load_save.rpym", line 35, in <module>
-    $ ui.interact()
+  File "game/chapter2.rpy", line 104, in script call
+    call puzzle
+  File "game/puzzles.rpy", line 201, in script
+    call screen jigsaw
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/ast.py", line 2232, in execute
+    self.call("execute")
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/ast.py", line 2220, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/statements.py", line 281, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 609, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/exports.py", line 3181, in call_screen
+    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
   File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/ui.py", line 299, in interact
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/core.py", line 3377, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/core.py", line 3912, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/core.py", line 2602, in draw_screen
-    surftree = renpy.display.render.render_screen(
-  File "render.pyx", line 495, in renpy.display.render.render_screen
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/layout.py", line 884, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/transition.py", line 378, in render
-    top = render(self.new_widget, width, height, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/layout.py", line 884, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/layout.py", line 884, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/screen.py", line 704, in render
-    child = renpy.display.render.render(self.child, w, h, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/layout.py", line 884, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/im.py", line 627, in render
-    return cache.get(self, render=True)
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/im.py", line 295, in get
-    surf = image.load()
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/im.py", line 720, in load
-    raise e
-  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/im.py", line 685, in load
-    filelike = renpy.loader.load(self.filename)
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/display/core.py", line 4103, in interact_core
+    renpy.audio.audio.periodic()
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/audio/audio.py", line 1166, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 441, in raise_
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/audio/audio.py", line 1144, in periodic_thread_main
+    periodic_pass()
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/audio/audio.py", line 1086, in periodic_pass
+    c.periodic()
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/audio/audio.py", line 517, in periodic
+    topf = load(filename)
+  File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/audio/audio.py", line 70, in load
+    rv = renpy.loader.load(fn)
   File "/home/fajarikasaputra/renpy-8.0.3-sdk/renpy-8.0.3-sdk/renpy/loader.py", line 820, in load
     raise IOError("Couldn't find file '%s'." % name)
-OSError: Couldn't find file 'gui/bg-candi.png'.
+OSError: Couldn't find file 'Pickup_Coin.ogg'.
 
 Linux-5.15.0-52-generic-x86_64-with-glibc2.31 x86_64
 Ren'Py 8.0.3.22090809
 Majapahit 1.0
-Sun Oct 23 04:57:27 2022
+Sun Oct 23 15:46:57 2022
